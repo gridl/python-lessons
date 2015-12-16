@@ -1,0 +1,12 @@
+from turtle import *          
+reset ()          
+down ()           
+fd (20)      
+lt (90)        
+fd (20)      
+lt (90)
+fd (20)      
+lt (90)
+fd (20)      
+up ()             
+fd (100)
