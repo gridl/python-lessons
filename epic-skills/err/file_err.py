@@ -4,5 +4,8 @@ try:
 except:
     print ("Error opening file")
 finally:
-    f.close()
-    print ('(Очистка: Закрытие файла)')
+    try:
+        f.close()
+        print ('(Очистка: Закрытие файла)')
+    except NameError:
+        pass
